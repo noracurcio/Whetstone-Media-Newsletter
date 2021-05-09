@@ -35,6 +35,14 @@
         max-width: 70%;
       }
 
+      .left-title{
+        align-content: left;
+      }
+
+      .right-title{
+        align-content: right;
+      }
+
       /* Adobe import alternate-gothic-no-3-d */
       @import url("https://use.typekit.net/qat5ldx.css");
 
@@ -128,7 +136,7 @@
       }
     
       p {
-      font-size: 18px;
+      font-size: 20px;
       }
 
       h1, h2, h3, h4, h5, h6{
@@ -145,6 +153,10 @@
         font-weight: bold;
         padding-top: 10px;
       }
+      /* .media-img{
+        height: 100px;
+        width: 100px;
+      } */
 
       a {
         text-decoration: none !important;
@@ -167,6 +179,7 @@
   </head>
 
   <body class="col-12">
+    <!-- Header with logo and image -->
     <div class="header-container col-12">
       <img
         src="https://static1.squarespace.com/static/5e558c8165fc4c78f502938d/t/5f29a6074f737640b092f1bb/1617915640780/?format=1500w"
@@ -178,11 +191,13 @@
         class="header-img"
       />
     </div>
+    <!-- Date Header -->
     <div class="date-container col-12" style="background-color: #d0d0d0 ;">
       <div class="row">
         <p id="date">MAY 10, 2021</p>
       </div>
     </div>
+    <!-- Title and Volume -->
     <div class="container">
       <div class="row">
         <h1 class="text-left" style="margin-top: 15px; font-size: 23px; font-weight: bold;">Whetstone Newsletter</h1>
@@ -190,172 +205,215 @@
       <div class="row">
         <h3 style="font-size: 20px;" class="text-muted">Volume 001</h3>
       </div>
+      </div>
+      <div class="container">
       <div class="row">
-        <h1 class="text-center" style="font-size: 23px; padding-top:30px; font-weight: bold;">Welcome to our weekly newsletter</h1>
+        <div class="col"></div>
+        <div class="col-5">
+        <h1 class="text-end" style=" width:84%; font-size: 23px; padding-top:30px; font-weight: bold;">Welcome to our weekly newsletter</h1>
+      </div>
       </div>
       <div class="row">
-        <p style="width: 100%; margin: 0 auto; margin-top:25px;">
-          Since 2016 Whetstone has used food as a means of better understanding humans and
-          the world. To date we’ve worked with a team of global creatives representing
-          over 80 countries. We believe that diversity isn’t just noteworthy, it’s what
-          makes our work so essential. When the gatekeepers are diverse, so too are the
-          stories, its tellers and their experiences. This diversity accelerates our
-          collective knowledge and empathy. Whetstone is unequivocally and gratefully a
-          better company because of it.
+        
+
+        <p class="text-end" style="width: 90%; margin-top:25px;">
+          Since 2016, Whetstone has used food as a means to better understand humans and the world. To date, we’ve worked with a team of global creatives representing over 80 countries. We believe that diversity isn’t just noteworthy, it’s what makes our work so essential. When the storytellers are diverse, so too are their experiences. This diversity accelerates our collective knowledge and empathy. Whetstone is unequivocally and gratefully a better company because of it.
         </p>
-      </div>
-      <div class="row mx-auto" style="margin: 20px 0px">
-        <div class="col-sm-12 col-md-6 col-lg-3" style='margin: 0 auto;'>
+        <br>
+        <br>
+      
+      
+    </div>
+      <div class="row mx-auto" style="margin:20px 0px">
+        <div class="col-sm-6 col-md-6 col-lg-3" style=' width: 20%; margin: 0 auto;'>
           <a
             href="https://www.whetstonemagazine.com/store/print"
             class="mediaimg"
             style="color: #222222; text-decoration: none;"
           >
-            <img
+            <img class="media-img"
               src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/6094b0e5edc40d0932369c1b_Screen%20Shot%202021-05-06%20at%208.31.59%20PM.png"
+              
             />
             <p class="text-center" style="font-size: 20px; text-transform: uppercase;">Print</p>
           </a>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-3" style='margin: 0 auto;'>
+        <div class="col-sm-12 col-md-6 col-lg-3" style='width: 20%; margin: 0 auto;'>
           <a
             href="https://www.whetstonemagazine.com/podcast"
             class="mediaimg"
             style="color: #222222; text-decoration: none;"
           >
-            <img
+            <img class="media-img"
               src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/6094b0e636fa257b87c9d848_Screen%20Shot%202021-05-06%20at%208.32.09%20PM.png"
-            />
+              
+              />
             <p class="text-center" style="font-size: 20px; text-transform: uppercase;">Podcast</p>
           </a>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-3"style='margin: 0 auto;' >
+        <div class="col-sm-12 col-md-6 col-lg-3"style='width: 20%;margin: 0 auto;' >
           <a
             href="https://www.whetstonemagazine.com/journal"
             class="mediaimg"
             style="color: #222222; text-decoration: none;"
           >
-            <img
-              src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/6094bc5e33e035e6b26630ff_Screen%20Shot%202021-05-06%20at%208.32.16%20PM.png"
-            />
+            <img class="media-img"
+              src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/6094bc5e33e035e6b26630ff_Screen%20Shot%202021-05-06%20at%208.32.16%20PM.png">
+              
             <p class="text-center" style="font-size: 20px; text-transform: uppercase;">Journal</p>
           </a>
         </div>
       </div>
-      <hr />
+    </div>
+    <!-- Line Separater -->
+      <hr style="margin-left:50px; margin-right:50px"/>
+      <!-- First Article Title -->
+      <div class="container">
       <div class="row">
-        <h1 class="text-center" style="font-size: 23px; padding-top:30px; font-weight: bold;">High on the hog:</h1>
+        <h1 class="text-left" style="padding-left: 60px;font-size: 23px; padding-top:30px; font-weight: bold;">High on the hog:</h1>
       </div>
       <div class="row">
         <div class="col-sm-12 col-lg-6">
-          <p style="width: 100%; margin: 0 auto;">
-            Whetstone's founder, Stephen Satterfield will be hosting Netflix's new
-            docs-series, High on the Hog. The series is based on one of food historian Dr.
-            Jessica B. Harris' books. According to the press release the show will be
-            "part culinary show, part travelogue" and is a "story of Black America’s
-            resilience, enduring creativity, and vital contribution to America’s kitchen."
+          <p style="width: 100%; margin: 0 auto; padding-left: 50px; padding-right: 50px;">
+            Whetstone's founder, Stephen Satterfield, will be hosting Netflix's new docuseries, <a style="color:#222222;" href="https://www.eater.com/22396291/high-on-the-hog-netflix-debut-african-american-cuisine-jessica-harris-stephen-satterfield" target="_blank">High On The Hog</a>. The series is based on a book by food historian, Dr. Jessica B. Harris. The show will be "part culinary show, part travelogue" and is a "story of Black America’s resilience, enduring creativity, and vital contribution to America’s kitchen" according to the press release. The air date is May 26.
           </p>
+          <br>
+          <a href="https://youtu.be/7wsEdxt1Ico" class="CTA" style="margin-left: 50px;width: auto;" target="_blank">WATCH THE TRAILER</a>
         </div>
         <div class="col-sm-12 col-lg-6">
           <img
             src="https://cdn.vox-cdn.com/thumbor/rIXuu5TqzegZIdVDkAgapzWZJUQ=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/69166246/HighontheHog_HowAfricanAmericanCuisineTransformedAmerica_LimitedSeries_Episode1_00_06_09_20.0.jpg"
             class="highonthehog-img"
-            style="margin-bottom: 20px;
+            style="margin-bottom: 20px; padding-right: 50px;
             width: 100%;
             height: 300px;
             object-fit: cover;"
           />
         </div>
-        <div class="row">
-          <a href="https://youtu.be/7wsEdxt1Ico" class="CTA" style="width: auto;" target="_blank"">READ MORE</a>
-        </div>
+        
       </div>
-      <hr />
+      </div>
+      <!-- Line Separator -->
+    <hr style="margin-left: 50px; margin-right:50px">
+    <!-- Second Article -->
+    <div class="container">
       <div class="row">
-        <h1 class="text-center" style="font-size: 23px; padding-top:30px; font-weight: bold;">SOUTH ASIA EDITOR, VIDYA</h1>
+        <div class="col"></div>
+      <div class="col-6">
+        <h1 class="text-end" style="width:84%;font-size: 23px; padding-top:30px; font-weight: bold;">SOUTH ASIA EDITOR NEWS</h1>
+      </div>
       </div>
       <div class="row">
         <div class="col-sm-12 col-lg-6" style="height: auto;">
           <img
             src="https://images.squarespace-cdn.com/content/v1/5e558c8165fc4c78f502938d/1617403353303-LZOBJ91WNR4AZOE99ARI/ke17ZwdGBToddI8pDm48kGjH3kdbtRMByiiyZu1i2Q8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2eNJhKw1b4yawu4gEGhd6ZAMF643Du0K7r0LeWYQXm9abtxPRH917Fz9Qv_NunPol/Curd+Rice+-+Johncie.jpeg?format=1500w"
             class="south-asia-img"
-            style="margin: 24px 0px;
+            style="
+            padding-left: 50px; margin: 24px 0px;
             object-fit: cover;
             width: 100%;
             height: 300px;"
           />
+          
         </div>
         <div class="col-sm-12 col-lg-6">
-          <p style="width: 100%; margin: 20px auto;">
-            Congratulations to our South Asia Editor, Vidya Balachander for winning the
-            American Society of Journalists and Authors award for Food & Drink writing,
-            2020. Check out more of her work on our website.
+          <p class="text-end" style=" padding-right: 50px; width: 90%; margin: 20px auto;">
+            Congratulations to our South Asia Editor, Vidya Balachander, for winning the <a style="color:#222222;" href="https://twitter.com/ASJAhq/status/1389973301850689540" target="_blank">2020 American Society of Journalists and Authors award for Food & Drink writing</a>. Check out more of her work on our website.
           </p>
+          <a style="float:right; margin-right: 64px"href="https://foodandfarmcommunications.org/2021-impact-media-award/" target="_blank" class="CTA" style="width: auto;">READ MORE</a>
         </div>
-        <div class="row">
-          <a href="https://foodandfarmcommunications.org/2021-impact-media-award/" target="_blank" class="CTA" style="width: auto;">READ MORE</a>
-        </div>
+        
       </div>
     </div>
-    <hr />
+  </div>
+  </div>
+  <!-- Line Divider -->
+    <hr style="margin-left: 50px; margin-right: 50px;"/>
+    <!-- Third Article -->
+
       <div class="row" style="margin: 0 auto">
-        <h1 class="text-center"  style="font-size: 23px; padding-top:30px; font-weight: bold;">IMPACT AWARDS</h1>
+        <h1 class="text-left"  style="font-size: 23px; padding-top:30px; padding-left: 60px; font-weight: bold;">IMPACT AWARDS</h1>
       </div>
       <div class="row" style="margin: 0 auto">
         <div class="col-sm-12 col-lg-6">
-          <p style="margin: 20px auto; width: 100%;">
-            We are honored to announce that Whetstone, along with the makers of the extraordinary film, Gather, have been announced as the 2021 Impact Media Award Winners. In addition to this recognition we are the grateful recipients of $10,000 that will be put to use further our collectively personal stories of food origin, ancestry and global gastronomy. Through your readership you have kept us viable and made this recognition possible.
+          <p style=" color:#222222; padding-left: 50px; margin: 20px auto; width: 100%;">
+            We are honored to announce that Whetstone, along with the makers of the extraordinary film, <em>Gather</em>, have been announced as the 2021 Impact Media Award Winners. In addition to this recognition, we are the grateful recipients of $10,000 that will be used to further our collective personal stories of food origin, ancestry and global gastronomy. Through your readership you have kept us viable and made this recognition possible.
           </p>
+          <a href="https://foodandfarmcommunications.org/2021-impact-media-award/" target="_blank" class="CTA" style=" margin-left: 50px; width: auto">READ MORE</a>
         </div>
         <div class="col-sm-12 col-lg-6">
           <img
           src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/609425b95aeaa286215f80f9_Screen%20Shot%202021-05-06%20at%2011.21.51%20AM.png"
             class="Impact-awards-img"
-            style="margin: 24px 0px;
+            style="padding-right: 50px; 
             object-fit: cover;
             width: 100%;
             height: 300px;"
           />
         </div>
-        <div class="row">
-          <a href="https://foodandfarmcommunications.org/2021-impact-media-award/" target="_blank" class="CTA" style="width: auto">READ MORE</a>
-        </div>
+        
       </div>
-      <hr />
+      <!-- Line Separator -->
+      <hr style="margin-left: 50px; margin-right:50px">
+      <!-- Last Article -->
       <div class="row" style="margin: 0 auto">
-        <h1 class="text-center"  style="font-size: 23px; padding-top:30px; font-weight: bold;">WHETSTONE DISPATCH</h1>
+        <div class="col"></div>
+        <div class="col-5">
+        <h1 class="text-left"   style="padding-left:60px;font-size: 23px; padding-top:30px; font-weight: bold;">WHETSTONE DISPATCH</h1>
+      </div>
       </div>
       <div class="row" style="margin: 0 auto">
+      
+        
         <div class="col-sm-12 col-lg-6">
-          <p style="width: 100%; margin: 20px auto;">
-            Congratulations to our South Asia Editor, Vidya Balachander for winning the
-            American Society of Journalists and Authors award for Food & Drink writing,
-            2020. Check out more of her work on our website.
-          </p>
-        </div>
-        <div class="col-sm-12 col-lg-6">
+
           <img
             src="https://uploads-ssl.webflow.com/607cd68a875a6248f62ab049/609426ac7f685fbccf53eb46_Screen%20Shot%202021-05-06%20at%2011.25.50%20AM.png"
             class="whetstone-dispatch-img"
-            style="margin: 24px 0px;
+            style="padding-left:50px; margin: 24px 0px;
             object-fit: cover;
             width: 100%;
             height: 300px;"
           />
         </div>
+        
+        <div class="col-sm-12 col-lg-6">
+          <p style="padding-right:50px; width: 100%; margin: 20px auto;">
+            Catch up on our Whetstone Dispatch video series. From the country of Georgia to Cambodia, we take you behind the scenes. 
+          </p>
+          <a style="float: right; margin-right: 75px;"href="https://www.whetstonemedia.co/presents" target="_blank" class="CTA" style="width: auto;">READ MORE</a>
+        </div>
+        
       </div>
-      <div class="row">
-        <a href="https://www.whetstonemedia.co/presents" target="_blank" class="CTA" style="width: auto;">READ MORE</a>
-      </div>
+      
     </div>
-    <hr>
+    <!--Line Divider -->
+    <hr style="margin-left: 50px; margin-right: 50px;"/>
     <div class="row">
-      <p class="col-12" style="width:90%; margin: 0 auto;">Thank you for reading our inaugural newsletter. We look forward to seeing you here each week as we explore food origins. If you enjoyed this please consider supporting us with a subscription to Whetstone Magazine. <a href="https://www.whetstonemagazine.com/store/subscriptions" target="_blank">Subscriptions</a> If you are not interested in staying on our mailing list, you can unsubscribe at the button below.</p>
+      <div class="row">
+        <br>
+        <br>
+
+        </div>
+
+      <p class="col-12 text-center" style="width:90%; margin: 0 auto;">Thank you for reading our inaugural newsletter. We look forward to seeing you here each week as we explore food origins. If you enjoyed this, please consider supporting us with a subscription to Whetstone Magazine. <a style="color:#222222;"https://www.whetstonemagazine.com/store/subscriptions" target="_blank">Subscriptions</a> If you are not interested in staying on our mailing list, you can unsubscribe at the button below.</p>
     </div>
     <div class="row" style="margin: 10px auto;">
+      <div class="row">
+        <br>
+        <br>
+        
+        </div>
+      
+      
       <p class="text-center text-muted" style="width: 100%; margin: 0 auto;">Newsletter Editor: Lyric Lewin</p>
       <p class="text-center text-muted" style="width: 100%; margin: 0 auto;">Developer: Nora Curcio</p>
       <p class="text-center text-muted" style="width: 100%; margin: 0 auto;">Founder: Stephen Satterfield</p>
+      <div class="row">
+        <br>
+        <br>
+        
+        </div>
     </div>
     <div class="row">
       <img src='https://static1.squarespace.com/static/5bd22b3e815512981daaa1c0/t/5bd24b800852295d5fe3a0bb/1599684665113/?format=1500w' style='width: 50%; margin: 20px auto;' />
